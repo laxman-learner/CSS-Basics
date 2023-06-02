@@ -1,0 +1,31 @@
+@font-face {
+  font-family: openSans;
+  src: url(../Fonts/OpenSans-Regular-webfont.woff);
+}
+@font-face {
+  font-family: caterella;
+  src: url(../Fonts/Cantarell-Regular-webfont.woff);
+}
+
+h1 {
+  margin: 30px 100px;
+  font-family: openSans;
+  font-size: 30px;
+}
+.div1 {
+  font-size: 25px;
+  margin: 30px 100px;
+  font-family: openSans;
+}
+
+.div1 {
+  font-size: 25px;
+  margin: 30px 100px;
+  font-family: openSans;
+}
+.div2 {
+  font-size: 25px;
+  margin: 30px 100px;
+  font-family: openSans;
+  font-family: caterella;
+}

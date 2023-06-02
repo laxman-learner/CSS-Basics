@@ -1,0 +1,19 @@
+/* background-blend-mode is used to mix more than one properties given in the background of an
+  element such as background-image, gradient or any other and apply the different effect on them. */
+
+.div1 {
+  width: 500px;
+  height: 400px;
+  margin: 30px 100px;
+  padding: 10px;
+  border: 5px solid red;
+  background-image: url(../images/house.jpg);
+  background-color: blue;
+  background-blend-mode: saturation;
+
+  /* Note: background-blend mode may not apply properly with gradients */
+
+  /* normal is default property. Other values are: hue, saturation, color, multiply,
+      screen, overlay, lighten, darken, color-dodge, color-burn, hard-light, soft-light,
+      difference, exclusion , luminosity  */
+}

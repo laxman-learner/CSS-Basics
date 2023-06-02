@@ -1,0 +1,14 @@
+h1{
+    color: blue;
+    font-size: 30px;
+}
+
+p{
+    color: blueviolet;
+    font-size: 25px;
+}
+
+div p{
+    color: aqua;
+    font-size: 30px;
+}

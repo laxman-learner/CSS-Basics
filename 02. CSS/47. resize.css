@@ -1,0 +1,42 @@
+body {
+  background-color: lightblue;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.one {
+  border: 2px solid lightpink;
+  height: 200px;
+  width: 500px;
+  margin: 50px;
+  overflow: auto;
+  /* this is the helper property for resize property */
+  resize: vertical;
+}
+
+.two {
+  border: 2px solid lightpink;
+  height: 200px;
+  width: 500px;
+  margin: 50px;
+  overflow: auto;
+  resize: horizontal;
+}
+
+.three {
+  border: 2px solid lightpink;
+  height: 200px;
+  width: 500px;
+  margin: 50px;
+  overflow: auto;
+  resize: both;
+  /* none is the default value */
+}
+
+/* resize:both ; is the default property for <textarea> element. To disable this we can use
+    resize: none; */
+
+textarea {
+  resize: none;
+  margin: 50px;
+}

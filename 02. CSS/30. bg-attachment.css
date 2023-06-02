@@ -1,0 +1,21 @@
+.div1 {
+  width: 1200px;
+  border: 5px solid darkgreen;
+  margin: 30px 50px;
+  padding: 15px;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: url(../Images/flower.jfif) no-repeat right top;
+  background-attachment: scroll;
+  /* default value. Other value is fixed */
+}
+.div2 {
+  width: 1200px;
+  border: 5px solid darkred;
+  margin: 30px 50px;
+  padding: 15px;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: url(../Images/mountain.jfif) no-repeat right top;
+  background-attachment: fixed;
+}

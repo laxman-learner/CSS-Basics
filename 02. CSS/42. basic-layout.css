@@ -1,0 +1,94 @@
+body {
+  background-color: lightblue;
+  font-family: sans-serif;
+  margin: 0px;
+  /* body has default margin */
+}
+#wrapper {
+  padding: 0;
+  margin: 0 auto 20px;
+  width: 1200px;
+  border: 2px solid red;
+}
+
+#header h2 {
+  /* h2 has default margin */
+  margin: 0px;
+  height: 70px;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  background-color: blue;
+  color: white;
+  font-size: 25px;
+}
+
+#menu ul {
+  background-color: lightgreen;
+  margin: 0px;
+  height: 75px;
+  font-size: larger;
+}
+#menu ul li {
+  display: inline-block;
+}
+#menu li a {
+  display: block;
+  text-decoration: none;
+  margin: 25px 20px;
+  font-weight: bold;
+}
+
+#menu li a:hover {
+  background-color: lightpink;
+  color: white;
+  font-size: 30px;
+}
+
+#content {
+  width: 900px;
+  min-height: 500px;
+  background-color: lightcoral;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: justify;
+  line-height: 25px;
+  letter-spacing: 2px;
+  float: left;
+}
+
+#content h2 {
+  margin: 0px;
+}
+
+#sidebar {
+  float: left;
+}
+
+#sidebar ul li {
+  display: block;
+  margin: 50px 20px;
+}
+#sidebar li a {
+  display: block;
+  text-decoration: none;
+  margin: 25px 20px;
+  font-weight: bold;
+  font-size: larger;
+}
+#sidebar li a:hover {
+  background-color: gold;
+  color: white;
+  font-size: 30px;
+}
+
+#footer {
+  clear: both;
+  background-color: crimson;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 20px 50px;
+  text-align: right;
+  color: white;
+  font-style: italic;
+  font-weight: lighter;
+}

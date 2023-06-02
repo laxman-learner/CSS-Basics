@@ -1,0 +1,40 @@
+.div1 {
+  border: 5px solid green;
+  margin: 20px;
+  padding: 15px;
+  background-color: gold;
+
+  background-image: url(../Images/flower.jfif);
+  background-repeat: no-repeat;
+
+  /* repeat is the default value other values are: 
+            no-repeat : image is displayed only once. i.e. doesn't repeat
+            repeat-x  : image repeat only horizontally.
+            repeat-y  : image repeat only vertically.
+            space     : image is repeated but contains space between every repetition
+            round     : similar to repeat but it stretches the image.
+  */
+
+  background-position: center center;
+
+  /* default value is  left top and other values are:
+     left center, left bottom , center top, cener center, center bottom, right top,
+            right center, and right bottom.
+        This property can also be specified in following two other ways : 
+        background-position: horizontal value(e.g.50%) vertical value(e.g. 10% ) OR
+        background-position:  xpos (e.g. 200px) ypos(e.g. 40px)
+    
+    Shorthand proerty:
+        background: green url(../Images/flower.jfif) no-repeat center top; */
+}
+
+/* applying multiple backgrounds */
+
+.two {
+  border: 5px solid green;
+  margin: 20px;
+  padding: 15px;
+  background-color: lightblue;
+  background: url(../Images/flower.jfif) no-repeat top right,
+    url(../images/mountain.jfif) no-repeat bottom left;
+}

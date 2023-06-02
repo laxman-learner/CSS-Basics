@@ -1,0 +1,17 @@
+.one{
+    border: 5px dashed green;
+    width: 600px;
+    padding: 20px;
+     box-sizing: content-box;  
+     
+     /*default box-sizing property */
+}
+
+.two{
+
+    border: 10px solid aqua;
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+

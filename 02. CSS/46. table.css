@@ -1,0 +1,57 @@
+body {
+  background-color: coral;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+table {
+  margin: 20px 50px;
+  border-spacing: 5px 20px;
+  /* border-spacing property with single value sets the same border spacing both in between
+    rows and column. If this property contains two values then first value represents border
+    spacing between columns and second one represents the border spacing between rows  */
+
+  empty-cells: hide;
+  /* show is the default value */
+}
+
+table,
+th,
+td {
+  border: 2px solid lightpink;
+}
+th,
+td {
+  padding: 5px;
+}
+.tab {
+  margin: 50px;
+  border-collapse: collapse;
+  /* border-collapse: collapse; is the default property */
+  width: 200px;
+
+  empty-cells: hide;
+  table-layout: auto;
+  /* auto is the default value. other value is fixed which may cause the overflow of the content */
+}
+td {
+  vertical-align: top;
+  /* other values are bottom and middle. middle is the default value */
+}
+td,
+th {
+  padding: 20px;
+  /* In HTML this can be specified using cellpadding property. Here we can use two,three or 
+  four values for specifying  padding as required. This is the flexibility */
+}
+caption {
+  caption-side: bottom;
+  /* top is the default value */
+}
+
+/* some other properties */
+tr:hover {
+  background-color: gold;
+}
+tr:nth-child(even) {
+  background-color: lightgreen;
+}

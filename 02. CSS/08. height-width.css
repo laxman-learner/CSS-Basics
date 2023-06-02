@@ -1,0 +1,44 @@
+/* width property can be set with absolute unit such as in pixel or in relative unit such as in
+ percentage.
+ width in pixels -> this is fixed width and is ireespective of the size of viewport */
+
+ .first{
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid red;
+ }
+ 
+  /* width in percentage - in this case the size of html element is dependent on the size of the
+            viewport */
+
+ .second{
+    width: 50%;
+    border: 2px solid blue;
+    margin: 10px;
+    padding: 10px;
+ }
+
+  /* Height property can also be set in two ways as in width property. But, specifying the 
+   height in percentage is somewhat tricky.
+    height and width property can be specified simultaneously */
+
+    .third{
+        width: 600px;
+        height: 150px;
+        border: 3px dotted brown;
+        margin: 10px;
+        padding: 10px;
+    }
+
+
+    /* However, height property can cause overflow property if we don't specify the 
+    height for the element properly that is sufficient to accomodate the content. */
+
+    .fourth{
+        width: 300px;
+        height: 200px;
+        margin: 15px;
+        padding: 10px;
+        border: 2px dashed navy;
+    }

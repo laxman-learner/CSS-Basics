@@ -1,0 +1,75 @@
+/*  Box Shadow Syntax
+ box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit;
+
+none     :	Default value. No shadow is displayed	
+
+h-offset : Required. The horizontal offset of the shadow. A positive value puts the shadow on 
+           the right side of the box, a negative value puts the shadow on the left side of the
+           box.	
+
+v-offset  :	Required. The vertical offset of the shadow. A positive value puts the shadow 
+            below the box, a negative value puts the shadow above the box.	
+
+blur : Optional. The blur radius. The higher the number, the more blurred the shadow will be.	
+
+spread : Optional. The spread radius. A positive value increases the size of the shadow, a 
+        negative value decreases the size of the shadow.
+
+color  : Optional. The color of the shadow. The default value is the text color. 
+Note: In Safari (on PC) the color parameter is required. If you do not specify the color, 
+        the shadow is not displayed at all.	
+inset  :	Optional. Changes the shadow from an outer shadow (outset) to an inner shadow.	
+initial :Sets this property to its default value. 	
+inherit	: Inherits this property from its parent element.
+
+Note : in older versions we need to use prefix
+                -webkit-box-shadow: values...; -> for chrome and safari
+                -moz-box-shadow: values...;    ->for older version of mozilla.
+*/
+
+.box1{
+        margin: 30px auto;
+        padding: 10px;
+         height:300px;
+         width: 350px;
+    border: 5px solid black;
+    box-shadow: 5px 10px red; 
+    /* box-shadow with positive h-offset and v-offset */
+
+}
+    /* box-shadow with negative value and blur & spread properties */
+    
+    .box2{
+        margin: 60px auto;
+        padding: 10px;
+         height:300px;
+         width: 350px;
+         border: 5px dashed red;
+         box-shadow: -5px -10px 5px 10px green;
+    }
+
+    /* applying multiple shadows on a single element */
+
+    
+    .box3{
+        margin: 60px auto;
+        padding: 10px;
+         height:400px;
+         width: 450px;
+         border: 5px dashed aqua;
+         box-shadow: 5px 10px 0px 10px red, -10px -5px 10px 10px navy, 20px 30px 0px 20px
+                         green;
+    }
+
+    /* box shadow inside the box */
+
+    .box4{
+        margin: 100px auto;
+        height: 250px;
+        width: 250px;
+        padding: 50px;
+        border: 5px solid royalblue;
+
+        box-shadow: -5px -10px   0px 10px red inset, 10px 5px 0px 15px green inset;
+    }
+

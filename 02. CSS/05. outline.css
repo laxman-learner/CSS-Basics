@@ -1,0 +1,25 @@
+p{
+    border: 5px dotted blue;
+    outline-style:solid;
+    outline-width: 5px;
+    outline-color: red;
+}
+
+#out{
+    border: 4px groove darkcyan;
+    outline: 5px solid yellow;
+}
+
+.out{
+    border: 4px solid aqua;
+    outline-style: dashed;
+    outline-width: 5px;
+    outline-color: darkorange;
+    outline-offset: 6px;
+}
+
+.outline{
+    border: 4px dashed gold;
+    outline: 6px solid brown;
+    outline-offset: 5px;
+}

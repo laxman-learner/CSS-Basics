@@ -1,0 +1,40 @@
+
+
+.one{
+
+    width: 700px;
+    min-height: 200px;  
+    
+    /* min-height property is used to protect the overflow problem
+    This means height is at least 200px if there is no any content inside div element
+     and keeps growing as the size of div increases
+     i.e. content increases  thereby removing overflow.  */
+    border: 3px solid lawngreen;
+    padding: 10px;
+    margin: 20px;
+}
+
+.two{
+    
+    width: 700px;
+    max-height: 300px;   
+
+    /*   This means minimum height is dependent on the size of the div (may be empty if there
+    is no any content of the div element) and maximum 
+    height is 300px and if div requires more than this size then overflow may arrise */
+    
+    border: 3px solid hotpink;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* max-height and min-height property can be applied simultaneously */
+
+.three{
+    margin: 50px;
+    padding: 20px;
+    width: 500px;
+    min-height: 100px;
+    max-height: 200px;
+    border: 2px solid indigo;
+}

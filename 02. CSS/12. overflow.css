@@ -1,0 +1,64 @@
+
+
+.one
+{
+    border: 5px solid red;
+    width: 400px;
+    height: 500px;
+    margin-bottom: 100px;
+    overflow: visible; 
+    /* default overflow property - overflow content is visible vertically & horizontally
+     */
+}
+
+.two{
+
+    border: 5px solid darkblue;
+    width: 400px;
+    height: 500px;
+    margin-bottom: 100px;
+    overflow: hidden;
+
+    /* overflow content is hidden both vertically and horizontally */
+}
+
+.three{
+
+    border: 5px solid darkgoldenrod;
+    width: 400px;
+    height: 500px;
+    margin-bottom: 100px;
+    overflow: scroll;   
+
+    /* adds the scrollbar both horizontally and vertically irrespective of the 
+    size of the contents */
+}
+
+.four{
+
+    border: 5px solid darkmagenta;
+    width: 400px;
+    height: 500px;
+    margin-bottom: 100px;
+    overflow: auto;
+
+    /* places the either horizontal scrollbar or vertical scrollbar depending on the size 
+    of content */
+}
+
+.five{
+
+    border: 5px solid darkgreen;
+    width: 400px;
+    height: 500px;
+    margin-bottom: 100px;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+
+    /* Note : Any of the combinations of overflow value i.e. auto, hidden, visible, and scroll
+            can be used for the overflow-x and overflow-y properties. But, if we are using
+            visible for either overflow-x or overflow-y and something other than visible
+            for other i.e. remaining of (overflow-x , overflow-y), then visible value is
+            interpreted as auto */
+}

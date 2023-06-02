@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: slategrey;
+  letter-spacing: 1px;
+  margin: 0; /*  body has default margin */
+  padding: 0;
+}
+#container {
+  margin: 0 auto;
+  border: 8px dotted green;
+  background-color: white;
+}
+
+#header {
+  height: 100px;
+  background-color: coral;
+  box-sizing: border-box;
+  margin: 5px 5px 0px 5px;
+  padding: 20px 50px;
+  color: white;
+}
+
+#navbar {
+  height: 75px;
+  background-color: cyan;
+  margin: 0px 5px 0px 5px;
+}
+
+#navbar ul {
+  margin: 0;
+}
+#navbar ul li {
+  padding: 20px;
+  display: inline-block;
+}
+#navbar ul li a {
+  text-decoration: none;
+  font-size: 25px;
+}
+#navbar ul li:hover {
+  background: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+#menu {
+  background-color: lightgreen;
+  text-align: justify;
+  /* margin-left: 5px; */
+  font-size: 20px;
+  padding: 10px 5px 0px 10px;
+  float: left;
+  box-sizing: border-box;
+  height: 400px;
+}
+#menu h2 {
+  margin: 0 auto;
+}
+#sidebar {
+  background-color: red;
+  float: right;
+  height: 400px;
+  box-sizing: border-box;
+}
+
+#sidebar ul li {
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 50px;
+}
+#sidebar ul li a {
+  text-decoration: none;
+  color: white;
+}
+#sidebar ul li:hover {
+  background: green;
+  font-size: 30px;
+  font-weight: bold;
+}
+#footer {
+  clear: both;
+  height: 50px;
+  margin: 0 5px 5px 5px;
+  text-align: right;
+  padding: 10px 50px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+  color: red;
+  box-sizing: border-box;
+}
+
+/* using media query */
+
+/* for mobile screens */
+
+@media screen and (min-width: 200px) {
+  #navbar,
+  #header {
+    height: auto;
+    padding: 10px;
+    text-align: center;
+  }
+}
+#container {
+  width: 100%;
+}
+
+#menu,
+#sidebar,
+r {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+#footer {
+  height: auto;
+  word-wrap: break-word;
+}
+#menu h2 {
+  padding-left: 50px;
+}
+#sidebar ul {
+  margin: 0;
+}
+
+/* for tablet screens */
+
+@media screen and (min-width: 600px) {
+  #container {
+    width: 100%;
+  }
+  #menu {
+    width: 82%;
+    height: 400px;
+    overflow: auto;
+  }
+  #sidebar {
+    width: 18%;
+    height: 400px;
+  }
+  #sidebar ul {
+    padding-left: 5px;
+  }
+}
+
+/* for desktop screens */
+@media screen and (min-width: 1000px) {
+  #container {
+    width: 100%;
+  }
+  #menu {
+    width: 80%;
+    overflow: auto;
+  }
+  #sidebar {
+    width: 20%;
+  }
+}

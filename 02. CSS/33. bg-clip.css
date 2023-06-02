@@ -1,0 +1,39 @@
+/* background-clip property is associated with background-color. It has three values. */
+
+body {
+  background-color: blue;
+}
+
+.div1 {
+  font-size: 20px;
+  font-family: Verdana;
+  width: 325px;
+  margin: 20px 20px;
+  padding: 20px;
+  border: 10px dotted white;
+  background-color: red;
+  float: left;
+  background-clip: border-box; /* default property - background color is applied from border */
+}
+.div2 {
+  width: 325px;
+  margin: 20px 20px;
+  padding: 20px;
+  border: 10px dotted white;
+  background-color: red;
+  float: left;
+  font-size: 20px;
+  font-family: Verdana;
+  background-clip: padding-box; /* background color is applied from padding area   */
+}
+.div3 {
+  width: 325px;
+  margin: 20px 20px;
+  padding: 20px;
+  border: 10px dotted white;
+  background-color: red;
+  float: left;
+  font-size: 20px;
+  font-family: Verdana;
+  background-clip: content-box; /* background color is applied from content area */
+}

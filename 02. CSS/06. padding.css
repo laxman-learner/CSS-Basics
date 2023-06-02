@@ -1,0 +1,38 @@
+div{
+    border: 2px solid purple;
+    padding: 20px;
+    /* This means 20px padding on all sides i.e. 
+        padding-top, padding-right, padding-bottom, and 
+        padding-left: all these properties have the same value
+        which is 20px   */
+}
+.test{
+    border:3px dashed violet ;
+    
+    /* Note: heading and paragraph element has default margin */
+
+    padding: 10px 20px 30px 40px;
+     
+    /* This is the shorthand property for:
+            padding-top: 10px;
+            padding-right: 20px;
+            padding-bottom: 30px;
+            padding-left: 40px;
+            means in clockwise direction
+    */
+}
+
+.padding{
+    border: 5px solid navy;
+    padding:20px 50px;
+
+    /* This means top and bottom padding is 20px and right and left padding is 50px */
+}
+
+.text{
+    border: 5px inset red;
+    padding: 10px 50px 20px;
+
+    /* This means padding top:10px, padding right and left padding is 50px
+             and padding-bottom:20px;       */
+}

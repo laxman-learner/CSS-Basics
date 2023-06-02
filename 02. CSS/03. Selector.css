@@ -1,0 +1,43 @@
+/* tag name selector */
+
+h3{
+    color: cyan;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+}
+
+/* id selector */
+
+#selector{
+    color: slateblue;
+    font-weight: 100;
+    background-color: hotpink;
+}
+
+/* class  selector */
+
+.select{
+    color: teal;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* descendent selectors */
+
+#desc p{
+    font-size: 40px;
+    color: navy;
+    background-color:lightgrey;
+}
+
+.descen a{
+    color: red;
+    font-size: 25px;
+    font-style:oblique;
+}
+
+    #simple
+ {
+    font-size: 40px;
+    color: darkred;
+ }

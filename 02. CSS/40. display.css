@@ -1,0 +1,66 @@
+body {
+  background-color: gold;
+  font-family: sans-serif;
+}
+
+#para {
+  border: 2px solid red;
+  width: 600px;
+  padding: 20px;
+  margin: 30px 100px;
+  font-weight: bold;
+  display: none;
+  /* display: none property is used to  hide any element. The element next to it 
+        takes it's place. */
+}
+li {
+  /* list item have default display: block; property and takes full width taken by the 
+    parent element (full width of div if enclosed within it */
+
+  border: 2px solid red;
+  display: inline;
+  margin: 30px 20px;
+  padding: 20px;
+
+  /* in display:inline; property we can not set height, width, top and bottom margin/padding */
+}
+/* span element have display:inline; property by default */
+
+.div1 span {
+  border: 5px solid red;
+  height: 30px;
+  width: 100px;
+  margin: 30px 20px;
+  padding: 10px;
+  display: block;
+
+  /* in display:inline; property we can not set height, width, top and bottom margin/padding */
+}
+
+/*  <a> tag is by default display:inline; property */
+
+a {
+  border: 3px solid green;
+  display: inline-block;
+  height: 30px;
+  width: 50px;
+  margin: 30px 75px;
+  padding: 15px;
+
+  /* in display: inline-block; property we can  set height, width, top and bottom
+    margin/padding and it does not allow line break. It inherits both features of 
+        display: inline and display: block */
+}
+
+.div2 span {
+  display: list-item;
+  border: 5px solid green;
+  height: 25px;
+  width: 60px;
+  margin: 20px 100px;
+  padding: 5px;
+
+  /* other list properties can also be applied */
+
+  list-style-image: url(../Icons/arrow.png);
+}

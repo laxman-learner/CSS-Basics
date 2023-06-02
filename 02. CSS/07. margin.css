@@ -1,0 +1,60 @@
+
+/* It is important that margin-bottom of the previous element and margin-top of following
+ element are not added. margin property places the element based on the value which is 
+greater of (margin-bottom of previous element , margin-top of next following element) */
+
+h1{
+    border: 2px solid lawngreen;
+
+    /* h1 element has default margin in top and bottom  */
+
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    
+}
+
+.first{
+    border: 4px solid hotpink;
+    padding: 10px;
+    margin: 20px; 
+    /* means margin is 20px on all sides */
+}
+
+.second{
+    border: 3px dashed indigo;
+    padding: 5px;
+    margin: 50px 20px;
+
+    /* margin top and bottom are 50px
+    margin left and right are 20px */
+}
+
+.third{
+    border: 3px dotted orange;
+    margin: 20px 30px 40px;
+}
+
+/* margin top is 20px, margin left and right are 30px and margin bottom is 40px */
+
+.fourth{
+    border: 2px inset purple;
+
+    margin: 20px 30px 20px 50px;
+/* 
+    top and bottom are 20px , left margin is 50px and right margin is 30px - observe
+     in clockwise direction */
+}
+
+.fifth{
+    border: 5px ridge yellow;
+/* 
+    This style of assigning margin to the element places the content at the center - means
+     sets the margin-left and margin-right equal based on the width of element.
+     Note: It is necessary to use width property compulsorily */
+
+     width: 600px;
+     margin: 10px;
+     margin: 50px auto;
+}

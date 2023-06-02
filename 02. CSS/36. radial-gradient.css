@@ -1,0 +1,37 @@
+/* radial gradient starts from center by default whereas linear gradient starts from top to 
+    bottom  */
+div {
+  margin: 20px auto;
+  height: 500px;
+  width: 600px;
+  border: 6px solid gold;
+}
+
+.div1 {
+  background: radial-gradient(red, green, blue);
+}
+.div2 {
+  background: radial-gradient(red 30%, green 40%, blue);
+  /* multiple color with percentage */
+}
+
+.div3 {
+  /* circular radial gradient */
+  background: radial-gradient(circle, red 25%, green 30%, blue);
+}
+
+.div4 {
+  background: radial-gradient(closest-side at 10% 50%, red, green, blue);
+  /* other value is farthest-side */
+}
+.div5 {
+  background: radial-gradient(closest-corner at 10% 50%, red, green, blue);
+  /* other value is farthest-corner  */
+}
+
+.div6 {
+  /* repetiting radial gradient */
+  background: repeating-radial-gradient(circle, red 20%, blue 30%, green 40%);
+  /* first parameter i.e. circle can be ommitted.
+    value can also be given in pixels */
+}

@@ -1,0 +1,36 @@
+/* background size can be specified as: 
+background-size: auto  => This is the default value and takes the default size of the image
+background-size: 300px(width) 200px(height) 
+background-size: 50% (widht) 40%(height)   
+background-size: cover; => covers the whole size of the parent block, image may be clipped.
+background-size: content;   => try to adjust within the parent block, never clip the image
+                                but may not fit to the parent block.
+*/
+
+.div1 {
+  width: 1000px;
+  height: 400px;
+  margin: 30px 75px;
+  border: 5px solid red;
+  padding: 10px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: lightblue;
+  color: darkgreen;
+  background-image: url(../Images/flower.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div2 {
+  width: 1000px;
+  margin: 30px 75px;
+  border: 5px solid violet;
+  padding: 10px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: lightblue;
+  color: darkgreen;
+  background-image: url(../Images/mountain.jfif);
+  background-repeat: no-repeat;
+  background-size: contain;
+}

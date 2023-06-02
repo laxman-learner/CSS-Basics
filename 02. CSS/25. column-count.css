@@ -1,0 +1,30 @@
+.div1 {
+  width: 1000px;
+  margin: 20px 50px;
+  border: 3px solid red;
+  padding: 10px;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  column-count: 3;
+  column-gap: 50px;
+  column-rule-width: 5px;
+  column-rule-style: solid;
+  column-rule-color: darkblue;
+
+  /* shorthand is column-rule: 5px solid darkblue; */
+}
+
+.div2 {
+  width: 1200px;
+  margin: 20px 50px;
+  border: 3px solid green;
+  padding: 10px;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  column-width: 300px;
+  column-rule: 5px solid darkorange;
+}
+
+h1 {
+  column-span: all;
+}

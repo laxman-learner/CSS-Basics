@@ -1,0 +1,107 @@
+
+body{
+
+    font-size: 30px;
+}
+
+.box1{
+
+    border: 2px solid green;
+    width: 700px;
+    padding: 20px;
+    margin: 50px;
+    font-size:medium;
+
+    /* predefined value other values are: small, smaller, large, larger, x-large
+        Xx-large, x-small, Xx-small */
+
+        line-height: 30px;
+        font-weight: normal;
+        /* default value -> means without bold */
+
+        font-style: normal;          /* default value */
+
+        font-family: sans-serif;
+}
+
+.box2{
+
+    border: 2px solid red;
+    width: 700px;
+    padding: 20px;
+    margin: 50px;
+    font-size: 80%;
+    /* 80% of font-size of parent element i.e. body. Means it is relative to the parent element.*/
+   
+    line-height: 1.5em; 
+    /* 1.5 times the normal line-height */
+  
+    font-weight: bold;
+
+    font-style: italic;
+
+    font-variant:small-caps;
+
+    /* This property has two values. Normal is the default value. small-caps capitalize the 
+     every letters in text and every first letter of the sententence is capitalized slightly
+     greater. */
+
+
+
+
+}
+.box3{
+
+    border: 5px solid black;
+    width: 700px;
+    padding: 20px;
+    margin: 50px;
+    font-size: 0.5em;
+     
+    /* The em is also relative to the parent element. In this case 0.5em means font-size is 
+      half of the parent font-size. 1em is equals to the parent font-size.
+        Note: font-size can also be specified in pixels as in parent element */
+
+
+        font-weight: bolder;  
+        /* this value slightly overbolds the content if the parent content is bolded.
+            otherwise simply bolds  */
+
+            font-style: oblique;
+
+            /* similar to the italic but minor difference that it is useful with those font 
+            families whose italic form is not available and behaves exactly as italic */
+}
+
+.box4{
+    border: 5px solid purple;
+    width: 700px;
+    padding: 20px;
+    margin: 50px;
+    font-weight:lighter;
+    /* similar to the bolder value. If parent element is bold then it slightly light the bold.*/
+
+}
+.box4 span{
+
+    /* em unit used for specifying the font-size also works for compound span */
+    font-size: 1.5em;
+
+    /* we can specify the font-weight using numbers in the range (100-900) where,
+    700 acts as bold, and 900 behaves as bolder, 400 behaves as normal
+    */
+    font-weight: 900;
+}
+
+/* shorthand property for all of the font properties:
+
+font: font-style font-variant font-weight font-size/line-height font-family; 
+example:
+
+font: oblique small-caps normal 1em/35px arial; or
+font: oblique small-caps normal 1em/35px arial,verdana,helvetica;
+ (having multiple font-family)
+
+ first three properties can be ommitted i.e. are optional
+ 
+ */

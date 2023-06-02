@@ -1,0 +1,34 @@
+ul {
+  font-size: 25px;
+
+  list-style-type: none;
+  /* disc is the default value. Other values are : circle, square, and none */
+
+  list-style-position: inside;
+  /* default value is outside and it doesnot work with list-style: none;. 
+  list-style-position: inside; shifts the list item slightly right */
+
+  list-style-image: url(../Icons/arrow.png);
+}
+
+li {
+  padding: 5px 0px;
+  color: green;
+}
+
+ol {
+  font-size: 25px;
+
+  list-style-type: decimal;
+  /* decimal is the default value. Other values are : lower-alpha, upper-alpha
+    lower-roman, upper-roman and none */
+
+  list-style-position: inside;
+
+  /* default value is outside and it doesnot work with list-style: none;. 
+  list-style-position: inside; shifts the list item slightly right */
+
+  list-style-image: url(../Icons/arrow.png);
+
+  /* shortcut => list-style: decimal inside url(../Icons/arrow.png); */
+}

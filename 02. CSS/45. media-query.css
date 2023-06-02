@@ -1,0 +1,28 @@
+/* any of the css properties can be applied or change */
+
+body {
+  background-color: lightcorals;
+  font-size: 50px;
+  font-family: sans-serif;
+  letter-spacing: 1.5px;
+  line-height: 1.5em;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: lightblue;
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 700px) {
+  body {
+    background-color: cyan;
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 330px) and (max-width: 480px) {
+  body {
+    background-color: gold;
+    font-size: 20px;
+  }
+}

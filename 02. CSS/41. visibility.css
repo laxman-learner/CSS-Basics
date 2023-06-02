@@ -1,0 +1,29 @@
+body {
+  background-color: lightcoral;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+h1,
+p {
+  padding: 20px;
+  text-align: justify;
+}
+
+ul {
+  visibility: hidden;
+
+  /*  visibility:visible is the default property.
+      visibility:hidden is similar to the display:none as it hides the content.
+      Only difference is that hidden elements by using visibility: hidden don't leave their
+       space. */
+}
+
+/* visibility: collapse is used to hide the entire row or single cell of a table */
+
+.row {
+  visibility: collapse;
+}
+
+.cell {
+  visibility: collapse;
+}

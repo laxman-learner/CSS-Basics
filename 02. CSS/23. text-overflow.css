@@ -1,0 +1,44 @@
+
+/* text-overflow property is useful with white-spce: nowrap and overflow: hidden
+
+text-overflow: clip        => default property. overflowed content is clipped i.e. hidden
+text-overflow: ellipsis    => places the dots (...) at the end
+text-overflow: string      => places the string mentioned inside "" at the end and only works 
+                                firefox broser */
+                
+        .div1{
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border: 5px solid green;
+            width: 700px;
+            margin: 30px 100px;
+           padding: 20px;
+           white-space: nowrap;
+           overflow: hidden;
+           text-overflow: clip;
+
+        }
+
+        .div2{
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border: 5px solid darkblue;
+            width: 700px;
+            margin: 30px 100px;
+           padding: 20px;
+           white-space: nowrap;
+           overflow: hidden;
+           text-overflow: ellipsis;
+        }
+        .div3{
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border: 5px solid black;
+            width: 700px;
+            margin: 30px 100px;
+           padding: 20px;
+           white-space: nowrap;
+           overflow: hidden;
+           text-overflow: " etc... ";
+
+        }

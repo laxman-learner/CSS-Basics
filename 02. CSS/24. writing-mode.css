@@ -1,0 +1,36 @@
+/* writing-mode: horizontal-tb => default; tb means top bottom
+writing-mode: vertical-lr   => lr means left right and rl means right left
+writing-mode: horizontal-rl
+writing-mode: sideways-lr   => applied only in firefox
+writing-mode: sideways-rl   => applied only in firefox
+*/
+
+div{
+
+    width: 600px;
+    margin: 30px 100px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    border: 5px solid green;
+}
+
+.div1{
+    writing-mode: horizontal-tb;
+}
+
+.div2{
+    writing-mode: vertical-lr;
+    
+}
+
+.div3{
+    writing-mode:sideways-lr;
+    
+}
+.div4{
+    writing-mode: vertical-rl;
+}
+.div5{
+    writing-mode: sideways-rl;
+}

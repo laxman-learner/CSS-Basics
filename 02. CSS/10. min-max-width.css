@@ -1,0 +1,13 @@
+
+/* When the browser window i.e. viewport is smaller than the width of the element the browser
+then add a horizontal scrollbar to the page. 
+    In such case we can use min-width and max-width property to avoid horizontal scroolbar.
+*/
+
+ .one{
+    min-width: 200px;
+    max-width: 500px;
+    
+    border: 3px solid brown;
+    margin: 20px;
+ }

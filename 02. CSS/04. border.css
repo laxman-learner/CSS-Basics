@@ -1,0 +1,28 @@
+h1{
+    border-width: 3px;
+    border-style: dashed;
+    border-color: blue;
+}
+
+p{
+    font-size: 25px;
+    color: blue;
+    border: 4px double black;
+}
+
+.border{
+    color: darkgreen;
+    font-size: 30px;
+    border-top: 4px dotted navy;
+    border-left: 5px groove gold; /* can also be set in right and bottom */
+}
+
+#mixed{
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    background-color: blue;
+    border-width: 5px;
+    border-style: inset none outset solid; /* in clockwise direction as top right bottom left */
+    border-color: lawngreen;
+}

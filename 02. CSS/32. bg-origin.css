@@ -1,0 +1,50 @@
+/* background-origin property is related to background-image property and
+    specifies from where (either border, or padding or content)
+    the background image will start. */
+
+.div1 {
+  width: 350px;
+  margin: 10px;
+  border: 8px dotted red;
+  padding: 18px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: lightblue;
+  float: left;
+  color: darkgreen;
+  background-image: url(../Images/flower.jfif);
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  /* default value => image starts rendering from padding */
+}
+.div2 {
+  width: 350px;
+  margin: 10px;
+  border: 8px dotted violet;
+  padding: 15px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: lightblue;
+  float: left;
+  color: darkgreen;
+  background-image: url(../Images/mountain.jfif);
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  /* image starts rendering from border.. */
+}
+.div3 {
+  width: 350px;
+  margin: 10px;
+  border: 8px dotted darkorange;
+  padding: 15px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  float: left;
+  color: darkgreen;
+  background-image: url(../Images/house.jpg);
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+  background-origin: content-box;
+  /* image starts rendering from content.. */
+}

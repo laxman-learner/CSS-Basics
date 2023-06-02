@@ -1,0 +1,33 @@
+
+div{
+    margin: 30px 100px;
+    padding: 10px;
+    width: 250px;
+    border: 3px solid green;
+}
+
+.box1{
+    margin: 30px 100px;
+    padding: 10px;
+    width: 250px;
+    border: 3px solid red;
+    word-wrap: break-word;
+    /* normal is the default value */
+
+}
+
+.box2{
+    margin: 30px 100px;
+    padding: 10px;
+    width: 250px;
+    border: 3px solid darkorange;
+   }
+
+.box3{
+    margin: 30px 100px;
+    padding: 10px;
+    width: 250px;
+    border: 3px solid darkcyan;
+    word-break: break-all;
+    /* breaks both line and word. keep-all is the default value  */
+}

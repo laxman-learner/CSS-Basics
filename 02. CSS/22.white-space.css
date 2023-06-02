@@ -1,0 +1,48 @@
+
+/* white-space:normal   => default property
+white-space:nowrap      => displays content in a single line
+white-space:pre         => acts as <pre> tag i.e. can take multiple spaces in HTML + nowrap
+white-space:pre-line    => works as <pre>, accepts a single whitespace and doesn't support nowrap.
+white-space:pre-wrap    => acts as pre but not support nowrap */
+
+.first{
+
+    width: 500px;
+    border: 3px solid green;
+    margin: 30px 30px;
+    padding: 10px;
+    white-space: normal;
+}
+.second{
+
+    width: 500px;
+    border: 3px solid red;
+    margin: 30px 30px;
+    padding: 10px;
+    white-space: nowrap;
+}
+.third{
+
+    width: 500px;
+    border: 3px solid darkcyan;
+    margin: 30px 30px;
+    padding: 10px;
+    white-space: pre;
+}
+.fourth{
+
+    width: 500px;
+    border: 3px solid green;
+    margin: 30px 30px;
+    padding: 10px;
+    white-space: pre-line;
+}
+.fifth{
+
+    width: 500px;
+    border: 3px solid darkgoldenrod;
+    margin: 30px 30px;
+    padding: 10px;
+    white-space: pre-wrap;
+}
+

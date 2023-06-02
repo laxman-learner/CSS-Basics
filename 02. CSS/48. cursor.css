@@ -1,0 +1,168 @@
+body {
+  font-size: 25px;
+  font-family: sans-serif;
+}
+div {
+  background-color: aqua;
+  height: 150px;
+  width: 190px;
+  display: inline-block;
+  border: 2px solid black;
+  padding: 50px 20px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+.thirteen {
+  padding: 50px 10px;
+}
+div:nth-child(even) {
+  background-color: lightgreen;
+}
+div:nth-child(odd) {
+  background-color: lightblue;
+}
+.one:hover {
+  cursor: auto;
+  background-color: gold;
+}
+.two:hover {
+  cursor: default;
+  background-color: gold;
+}
+.three:hover {
+  cursor: none;
+  background-color: gold;
+}
+.four:hover {
+  cursor: help;
+  background-color: gold;
+}
+.five:hover {
+  cursor: pointer;
+  background-color: gold;
+}
+.six:hover {
+  cursor: progress;
+  background-color: gold;
+}
+.seven:hover {
+  cursor: wait;
+  background-color: gold;
+}
+.eight:hover {
+  cursor: cell;
+  background-color: gold;
+}
+.nine:hover {
+  cursor: crosshair;
+  background-color: gold;
+}
+.ten:hover {
+  cursor: text;
+  background-color: gold;
+}
+.eleven:hover {
+  cursor: vertical-text;
+  background-color: gold;
+}
+.twelve:hover {
+  cursor: alias;
+  background-color: gold;
+}
+.thirteen:hover {
+  cursor: context-menu;
+  background-color: gold;
+}
+.fourteen:hover {
+  cursor: copy;
+  background-color: gold;
+}
+.fifteen:hover {
+  cursor: move;
+  background-color: gold;
+}
+.sixteen:hover {
+  cursor: no-drop;
+  background-color: gold;
+}
+.seventeen:hover {
+  cursor: not-allowed;
+  background-color: gold;
+}
+.eighteen:hover {
+  cursor: e-resize;
+  background-color: gold;
+}
+.nineteen:hover {
+  cursor: n;
+  background-color: gold;
+}
+.twenty:hover {
+  cursor: ne;
+  background-color: gold;
+}
+.two-one:hover {
+  cursor: nw-resize;
+  background-color: gold;
+}
+.two-two:hover {
+  cursor: s-resize;
+  background-color: gold;
+}
+.two-three:hover {
+  cursor: se-resize;
+  background-color: gold;
+}
+.two-four:hover {
+  cursor: sw-resize;
+  background-color: gold;
+}
+.two-five:hover {
+  cursor: w-resize;
+  background-color: gold;
+}
+.two-six:hover {
+  cursor: ew-resize;
+  background-color: gold;
+}
+.two-seven:hover {
+  cursor: ns-resize;
+  background-color: gold;
+}
+.two-eight:hover {
+  cursor: nesw-resize;
+  background-color: gold;
+}
+.two-nine:hover {
+  cursor: nwse-resize;
+  background-color: gold;
+}
+.three-zero:hover {
+  cursor: col-resize;
+  background-color: gold;
+}
+
+.three-one:hover {
+  cursor: row-resize;
+  background-color: gold;
+}
+.three-two:hover {
+  cursor: all-scroll;
+  background-color: gold;
+}
+.three-three:hover {
+  cursor: zoom-in;
+  background-color: gold;
+}
+.three-four:hover {
+  cursor: zoom-out;
+  background-color: gold;
+}
+.three-five:hover {
+  cursor: grab;
+  background-color: gold;
+}
+.three-six:hover {
+  cursor: grabbing;
+  background-color: gold;
+}

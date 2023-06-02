@@ -1,0 +1,37 @@
+div {
+  margin: 30px auto;
+  height: 300px;
+  width: 400px;
+  border: 5px solid black;
+}
+
+.div1 {
+  background: linear-gradient(to right, red, green);
+
+  /* by default gradient direction is to bottom. other values are to left, to right,
+        to top */
+}
+
+.div2 {
+  background: linear-gradient(to right bottom, red, green, blue);
+  /* diagonal linear gradient with multiple colors  */
+
+  /*other values are to left top, to left bottom, to right top.. more than three colors 
+    can also be given..     */
+}
+.div3 {
+  background: linear-gradient(45deg, red, aqua, gold);
+  /* linear gradient direction with degree. both positive and negative value are accepted */
+}
+.div4 {
+  background: linear-gradient(to bottom, rgba(0, 255, 0, 0.5), violet);
+  /* linear gradient color can also be given by using other ways of specifying color such as 
+            rgb(), rgba(), hsl(), hsla(), and so on..  */
+}
+
+.div5 {
+  background: repeating-linear-gradient(to right, red, green 20%, blue 30%);
+  /* repetiting linear-gradient */
+
+  /* default direction to bottom we can also customize the direction */
+}
